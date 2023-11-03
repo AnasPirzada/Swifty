@@ -1,0 +1,10 @@
+.custom-navbar-toggler-icon {
+  /* Set your desired background image URL */
+  background-image: url('/public/fliter/humburg.svg');
+  /* Additional CSS properties if needed */
+  background-size: cover; /* Adjust background-size as needed */
+  /* Any other styles you want to apply */
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: black !important;
+}

@@ -28,11 +28,53 @@
   color: #61dafb;
 }
 
+.border,
+.border-bottom,
+.border-top,
+.border-right,
+.border-left {
+  border-color: black !important;
+}
+
+.pink-text {
+  color: #fff;
+  background-color: #ff1493;
+  width: 20%;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.drop-shadow {
+  box-shadow: 12px 12px 8px rgb(0, 0, 0);
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+
+
+.borderg {
+  background-image: url('/public/dot.svg');
+  border: 1px solid #FFFFFF26;
+  /* background-repeat: no-repeat; */
+}
+
+@media screen and (max-width: 930px) {
+  .responimg {
+    display: none !important;
+  }
+
+  .columnnn {
+    flex-direction: column;
   }
 }
